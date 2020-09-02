@@ -1,1 +1,1 @@
-# ECOS
+# ECOS testing project
