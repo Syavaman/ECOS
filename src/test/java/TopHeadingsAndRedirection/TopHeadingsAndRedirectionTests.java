@@ -3,8 +3,6 @@ package TopHeadingsAndRedirection;
 import BrowsersAndListeners.Browser;
 import PageObject.Constants;
 import PageObject.TopHeadings.TopHeadings;
-import PageObject.Users.Users;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;

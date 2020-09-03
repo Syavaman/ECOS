@@ -19,7 +19,7 @@ public class BasePage {
     private WebElement passwordField;
     @FindBy(xpath = "//div[@id='btn-login']")
     private WebElement logInButton;
-    @FindBy (xpath = "//a[@id='1']")
+    @FindBy(xpath = "//a[@id='1']")
     private WebElement DashHeader;
 
     public BasePage(WebDriver driver) {
@@ -31,9 +31,11 @@ public class BasePage {
         driver.get(Constants.urlAdress);
     }
 
-    public void openPage (String URL){driver.get(URL);}
+    public void openPage(String URL) {
+        driver.get(URL);
+    }
 
-    public BasePage logIn (){
+    public BasePage logIn() {
         openPage();
         usernameField.sendKeys(Constants.accountName);
         passwordField.sendKeys(Constants.passwordName);
@@ -41,7 +43,9 @@ public class BasePage {
         Wait<WebDriver> wait = new WebDriverWait(driver, 30);
         wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//a[@id='1']")));
         return this;
-    };
+    }
+
+
 
 
 }

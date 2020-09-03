@@ -10,7 +10,9 @@ import java.util.Set;
 
 public class LoginPage extends BasePage {
 
-    public LoginPage(WebDriver driver){super(driver);}
+    public LoginPage(WebDriver driver) {
+        super(driver);
+    }
 
     @FindBy(xpath = "//input[@id='username']")
     private WebElement usernameField;
@@ -24,7 +26,7 @@ public class LoginPage extends BasePage {
     private WebElement helpPage;
     @FindBy(xpath = "//div[contains(text(),'Close')]")
     private WebElement closeCookiePolicy;
-    @FindBy (xpath = "//div[@id='cookie-accept']")
+    @FindBy(xpath = "//div[@id='cookie-accept']")
     private WebElement cookieTable;
     @FindBy(xpath = "//h1[contains(text(),'Log in')]")
     private WebElement logInHeading;
@@ -38,7 +40,7 @@ public class LoginPage extends BasePage {
     private WebElement forgottenPasswordHeading;
     @FindBy(linkText = "ESET Online Help")
     private WebElement helpPageHeading;
-    @FindBy (xpath = "//div[contains(text(),'Logout')]")
+    @FindBy(xpath = "//div[contains(text(),'Logout')]")
     private WebElement LogOut;
 
 
@@ -66,11 +68,11 @@ public class LoginPage extends BasePage {
         return this;
     }
 
-    public WebElement cookieTable (){
+    public WebElement cookieTable() {
         return cookieTable;
     }
 
-    public WebElement logOutBttn(){
+    public WebElement logOutBttn() {
         return LogOut;
     }
 
