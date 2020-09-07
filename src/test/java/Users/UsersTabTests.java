@@ -17,7 +17,7 @@ public class UsersTabTests extends Browser {
     private UsersInfo userInfo;
 
     @BeforeClass
-    public void setUp(){
+    public void setUp() {
         WebDriver webDriver = Browser.getInstance();
         constant = new Constants();
         user = new Users(driver);
@@ -26,26 +26,25 @@ public class UsersTabTests extends Browser {
     }
 
     @BeforeMethod
-    public void basePageForTest(){
+    public void basePageForTest() {
         user.openPage(Constants.usersUrl);
     }
 
     @Test
-    public void checkUsersInfo(){
+    public void checkInfoOfUser() {
         user.navigateToUserInfo();
         SoftAssert soft = new SoftAssert();
-        soft.assertTrue(user.getNameOfAutomatedTestUserInOverview().equals(userInfo.nameOfTestedUser),"Problem with displaying name of tested user");
-        soft.assertTrue(user.getEmailNameOfAutomatedTestUserInOverview().isDisplayed(),"Problem with displaying email of tested user");
-        soft.assertTrue(user.getJobTitleOfAutomatedTestUserInOverview().isDisplayed(),"Problem with displaying job title of tested user");
-        soft.assertTrue(user.getDepartmentOfAutomatedTestUserInOverview().isDisplayed(),"Problem with displaying department of tested user");
-        soft.assertTrue(user.getPhoneNumberOfAutomatedTestUserInOverview().isDisplayed(),"Problem with displaying phone number of tested user");
+        soft.assertTrue(user.getNameOfAutomatedTestUserInOverview().equals(userInfo.nameOfTestedUser), "Problem with displaying name of tested user");
+        soft.assertTrue(user.getEmailNameOfAutomatedTestUserInOverview().isDisplayed(), "Problem with displaying email of tested user");
+        soft.assertTrue(user.getJobTitleOfAutomatedTestUserInOverview().isDisplayed(), "Problem with displaying job title of tested user");
+        soft.assertTrue(user.getDepartmentOfAutomatedTestUserInOverview().isDisplayed(), "Problem with displaying department of tested user");
+        soft.assertTrue(user.getPhoneNumberOfAutomatedTestUserInOverview().isDisplayed(), "Problem with displaying phone number of tested user");
         soft.assertAll("Some info is not shown properly");
     }
 
 
-
     @AfterClass
-    public void tearDown (){
+    public void tearDown() {
         Browser.killDriverInstance();
     }
 }

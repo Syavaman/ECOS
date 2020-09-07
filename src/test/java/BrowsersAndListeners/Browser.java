@@ -15,10 +15,10 @@ public class Browser {
         String browser = System.getProperty("browser");
         if (driver == null) {
             if (browser.equals(Browsers.firefox.name())) {
-                System.setProperty("webdriver.gecko.driver", ".\\src\\main\\resources\\drivers\\geckodriver.exe");
+                System.setProperty("webdriver.gecko.driver", ".\\drivers\\geckodriver.exe");
                 driver = new FirefoxDriver();
             } else if (browser.equals(Browsers.chrome.name())) {
-                System.setProperty("webdriver.chrome.driver", ".\\src\\main\\resources\\drivers\\chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", ".\\drivers\\chromedriver.exe");
                 driver = new ChromeDriver();
             } else {
                 throw new UnsupportedOperationException("Unknown browser " + browser);
