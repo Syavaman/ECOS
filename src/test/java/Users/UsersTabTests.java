@@ -34,11 +34,11 @@ public class UsersTabTests extends Browser {
     public void checkUsersInfo(){
         user.navigateToUserInfo();
         SoftAssert soft = new SoftAssert();
-        soft.assertTrue(user.getNameOfAutomatedTestUserInOverview().equals(userInfo.nameOfTestedUser));
-        soft.assertTrue(user.getEmailNameOfAutomatedTestUserInOverview().isDisplayed());
-        soft.assertTrue(user.getJobTitleOfAutomatedTestUserInOverview().isDisplayed());
-        soft.assertTrue(user.getDepartmentOfAutomatedTestUserInOverview().isDisplayed());
-        soft.assertTrue(user.getPhoneNumberOfAutomatedTestUserInOverview().isDisplayed());
+        soft.assertTrue(user.getNameOfAutomatedTestUserInOverview().equals(userInfo.nameOfTestedUser),"Problem with displaying name of tested user");
+        soft.assertTrue(user.getEmailNameOfAutomatedTestUserInOverview().isDisplayed(),"Problem with displaying email of tested user");
+        soft.assertTrue(user.getJobTitleOfAutomatedTestUserInOverview().isDisplayed(),"Problem with displaying job title of tested user");
+        soft.assertTrue(user.getDepartmentOfAutomatedTestUserInOverview().isDisplayed(),"Problem with displaying department of tested user");
+        soft.assertTrue(user.getPhoneNumberOfAutomatedTestUserInOverview().isDisplayed(),"Problem with displaying phone number of tested user");
         soft.assertAll("Some info is not shown properly");
     }
 

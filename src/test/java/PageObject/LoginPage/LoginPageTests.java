@@ -21,6 +21,8 @@ public class LoginPageTests extends Browser {
         loginPage.ClickHelpPageButton();
         String test1 = loginPage.getHPH();
         Assert.assertEquals("ESET Online Help", test1, "Help page has not been opened");
+        loginPage.closeHelpRedirectionPage();
+
     }
 
     @Test(priority = 1)

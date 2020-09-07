@@ -1,6 +1,7 @@
 package PageObject.LoginPage;
 
 import PageObject.BasePage;
+import PageObject.TopHeadings.TopHeadings;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -13,6 +14,7 @@ public class LoginPage extends BasePage {
     public LoginPage(WebDriver driver) {
         super(driver);
     }
+    private String ecosPage = driver.getWindowHandle();
 
     @FindBy(xpath = "//input[@id='username']")
     private WebElement usernameField;
@@ -128,6 +130,11 @@ public class LoginPage extends BasePage {
             System.out.println(handle1);
             driver.switchTo().window(handle1);
         }
+        return this;
+    }
+    public LoginPage closeHelpRedirectionPage() {
+        driver.close();
+        driver.switchTo().window(ecosPage);
         return this;
     }
 }
