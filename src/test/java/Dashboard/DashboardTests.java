@@ -25,7 +25,7 @@ public class DashboardTests extends Browser {
 
     @BeforeMethod
     public void basePageForTest() {
-        dashboard.openPage(Constants.DashboardUrl);
+        dashboard.openPage(Constants.dashboardUrl);
     }
 
     @Test

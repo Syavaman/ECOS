@@ -25,7 +25,7 @@ public class TopHeadingsAndRedirectionTests extends Browser {
 
     @BeforeMethod
     public void basePageForTest(){
-    topHeadings.openPage(Constants.DashboardUrl);
+    topHeadings.openPage(Constants.dashboardUrl);
     }
 
     @Test

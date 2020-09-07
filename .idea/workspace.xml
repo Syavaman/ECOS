@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64a8dbce-02dd-4eb0-adc1-9e1c24d6e950" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageObject/Users/UsersInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Users/UsersTabTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/Dashboard/DashBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObject/Dashboard/DashBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObject/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/Users/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObject/Users/Users.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Dashboard/DashboardTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Dashboard/DashboardTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TopHeadingsAndRedirection/TopHeadingsAndRedirectionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TopHeadingsAndRedirection/TopHeadingsAndRedirectionTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +53,7 @@
       <recent name="PageObject.LoginPage" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.&lt;default&gt;">
+  <component name="RunManager" selected="TestNG.UsersTabTests.checkUsersInfo">
     <configuration name="DashboardTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ECOS" />
       <extension name="coverage">
@@ -103,17 +107,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DashboardTests.checkPresenceOfTimePeriods" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UsersTabTests.checkUsersInfo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ECOS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Dashboard.*" />
+          <option name="PATTERN" value="Users.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Dashboard" />
-      <option name="MAIN_CLASS_NAME" value="Dashboard.DashboardTests" />
-      <option name="METHOD_NAME" value="checkPresenceOfTimePeriods" />
+      <option name="PACKAGE_NAME" value="Users" />
+      <option name="MAIN_CLASS_NAME" value="Users.UsersTabTests" />
+      <option name="METHOD_NAME" value="checkUsersInfo" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -133,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.UsersTabTests.checkUsersInfo" />
         <item itemvalue="TestNG.&lt;default&gt;" />
         <item itemvalue="TestNG.DashboardTests" />
         <item itemvalue="TestNG.DashboardTests.checkPresenceOfExchangeOnlineTiles" />
         <item itemvalue="TestNG.DashboardTests.checkPresenceOfOverviewTabTiles" />
-        <item itemvalue="TestNG.DashboardTests.checkPresenceOfTimePeriods" />
       </list>
     </recent_temporary>
   </component>
@@ -166,20 +170,28 @@
       <option name="project" value="LOCAL" />
       <updated>1599122573007</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="+Several Dashboard Tests">
+      <created>1599499364336</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599499364336</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
     <MESSAGE value="New commit" />
     <MESSAGE value="First Dashboard TimePeriodTileTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Dashboard TimePeriodTileTest" />
+    <MESSAGE value="+Several Dashboard Tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="+Several Dashboard Tests" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="120" key="#com.intellij.ide.util.MemberChooser" timestamp="1599498641887">
+    <state x="574" y="120" key="#com.intellij.ide.util.MemberChooser" timestamp="1599501576828">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="120" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1599498641887" />
+    <state x="574" y="120" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1599501576828" />
     <state x="2638" y="151" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599215433093" />
     <state x="475" y="339" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1597161018892">
       <screen x="0" y="0" width="1536" height="824" />
@@ -189,29 +201,29 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="566" y="273" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597161113305" />
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1599122572181">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1599502266202">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1599122572181" />
-    <state width="1877" height="210" key="GridCell.Tab.0.bottom" timestamp="1599217991811">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1599502266202" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1599502266229">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1599214826708" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1599502266229" />
     <state width="1877" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599217991811" />
-    <state width="1877" height="210" key="GridCell.Tab.0.center" timestamp="1599217991811">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1599502266228">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1599214826707" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1599502266228" />
     <state width="1877" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599217991811" />
-    <state width="1877" height="210" key="GridCell.Tab.0.left" timestamp="1599217991811">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1599502266228">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1599214826707" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1599502266228" />
     <state width="1877" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599217991811" />
-    <state width="1877" height="210" key="GridCell.Tab.0.right" timestamp="1599217991811">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1599502266228">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1599214826707" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1599502266228" />
     <state width="1877" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599217991811" />
     <state x="277" y="63" key="SettingsEditor" timestamp="1599077119304">
       <screen x="0" y="0" width="1536" height="824" />
