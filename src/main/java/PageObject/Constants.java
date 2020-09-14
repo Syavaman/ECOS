@@ -9,6 +9,8 @@ public class Constants {
     public static String passwordName = "Passw0rd1234567!";
 
 
+    public static String gmailAccount = "eso365tester@gmail.com";
+    public static String gmailPassword = "Passw0rd123_";
 
 
 }

@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64a8dbce-02dd-4eb0-adc1-9e1c24d6e950" name="Default Changelist" comment="+ several changes to previous tests">
+    <list default="true" id="64a8dbce-02dd-4eb0-adc1-9e1c24d6e950" name="Default Changelist" comment="+ SendMail class created">
+      <change afterPath="$PROJECT_DIR$/drivers/testfile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageObject/SendMail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/drivers/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObject/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/Users/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObject/Users/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Users/UsersTabTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Users/UsersTabTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/drivers/chromedriver.exe" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,16 +36,19 @@
     </option>
   </component>
   <component name="ProjectId" id="1fxTEJrNbISOnXf20xAiRYd45Zh" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vse.ua" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
@@ -48,29 +57,24 @@
       <recent name="PageObject.LoginPage" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/msi7r/Desktop/ECOS/testng.xml">
-    <configuration name="C:/Users/msi7r/Desktop/ECOS/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.SendMail">
+    <configuration name="SendMail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PageObject.SendMail" />
       <module name="ECOS" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PageObject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginPageTests.checkHelpPageRedirection" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/msi7r/Desktop/ECOS/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ECOS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="PageObject.LoginPage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="PageObject.LoginPage" />
-      <option name="MAIN_CLASS_NAME" value="PageObject.LoginPage.LoginPageTests" />
-      <option name="METHOD_NAME" value="checkHelpPageRedirection" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -113,7 +117,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UsersTabTests.checkInfoOfUser" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UsersTabTests.checkInfoOfUser (3)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ECOS" />
       <extension name="coverage">
         <pattern>
@@ -121,12 +125,11 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
       <option name="PACKAGE_NAME" value="Users" />
       <option name="MAIN_CLASS_NAME" value="Users.UsersTabTests" />
       <option name="METHOD_NAME" value="checkInfoOfUser" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="2" />
+      <option name="PARAMETERS" value="0" />
       <properties />
       <listeners />
       <method v="2">
@@ -135,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SendMail" />
+        <item itemvalue="TestNG.UsersTabTests.checkInfoOfUser (3)" />
+        <item itemvalue="TestNG.UsersTabTests.checkInfoOfUser (1)" />
         <item itemvalue="TestNG.C:/Users/msi7r/Desktop/ECOS/testng.xml" />
         <item itemvalue="TestNG.UsersTabTests.checkInfoOfUser (2)" />
-        <item itemvalue="TestNG.UsersTabTests.checkInfoOfUser (1)" />
-        <item itemvalue="TestNG.UsersTabTests.checkInfoOfUser" />
-        <item itemvalue="TestNG.LoginPageTests.checkHelpPageRedirection" />
       </list>
     </recent_temporary>
   </component>
@@ -217,19 +220,27 @@
       <option name="project" value="LOCAL" />
       <updated>1599505801581</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="+ some changes with drivers">
+      <created>1599505818898</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1599505818898</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
     <MESSAGE value="New commit" />
     <MESSAGE value="First Dashboard TimePeriodTileTest" />
     <MESSAGE value="+Several Dashboard Tests" />
     <MESSAGE value="+ User information data verification test" />
     <MESSAGE value="+ testng suite" />
-    <MESSAGE value="+ some changes with drivers" />
     <MESSAGE value="+ several changes to previous tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="+ several changes to previous tests" />
+    <MESSAGE value="+ some changes with drivers" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ some changes with drivers" />
   </component>
   <component name="WindowStateProjectService">
     <state x="507" y="216" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599504651984">
@@ -249,44 +260,50 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="566" y="273" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597161113305" />
-    <state x="2450" y="10" key="CommitChangelistDialog2" timestamp="1599505818044">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1600108070483">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1599504767184" />
     <state x="2450" y="10" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599505818044" />
-    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1599502597437">
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1600108070483" />
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1599507150045">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1599502597437" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1599505706748">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1599507150045" />
+    <state width="1493" height="281" key="GridCell.Tab.0.bottom" timestamp="1600108037780">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1599505532975" />
+    <state width="1493" height="281" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1599507689703" />
     <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599505706748" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1599505706747">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1493" height="281" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600108037780" />
+    <state width="1493" height="281" key="GridCell.Tab.0.center" timestamp="1600108037780">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1599505532975" />
+    <state width="1493" height="281" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1599507689702" />
     <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599505706747" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1599505706747">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1493" height="281" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600108037780" />
+    <state width="1493" height="281" key="GridCell.Tab.0.left" timestamp="1600108037780">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1599505532975" />
+    <state width="1493" height="281" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1599507689702" />
     <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599505706747" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1599505706747">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1493" height="281" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600108037780" />
+    <state width="1493" height="281" key="GridCell.Tab.0.right" timestamp="1600108037780">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1599505532975" />
+    <state width="1493" height="281" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1599507689702" />
     <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599505706747" />
+    <state width="1493" height="281" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600108037780" />
     <state x="277" y="63" key="SettingsEditor" timestamp="1599077119304">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="63" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1599077119304" />
-    <state x="2501" y="300" key="com.intellij.ide.util.TipDialog" timestamp="1599505563222">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1600104549874">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1599213496005" />
     <state x="2501" y="300" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599505563222" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1600104549874" />
     <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599122624936">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

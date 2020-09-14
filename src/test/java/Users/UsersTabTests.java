@@ -2,6 +2,7 @@ package Users;
 
 import BrowsersAndListeners.Browser;
 import PageObject.Constants;
+import PageObject.SendMail;
 import PageObject.Users.Users;
 import PageObject.Users.UsersInfo;
 import org.openqa.selenium.WebDriver;
@@ -15,6 +16,7 @@ public class UsersTabTests extends Browser {
     private Users user;
     private Constants constant;
     private UsersInfo userInfo;
+
 
     @BeforeClass
     public void setUp() {
@@ -31,6 +33,7 @@ public class UsersTabTests extends Browser {
     }
 
     @Test
+
     public void checkInfoOfUser() {
         user.navigateToUserInfo();
         SoftAssert soft = new SoftAssert();

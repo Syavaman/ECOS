@@ -4,6 +4,10 @@ import PageObject.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Wait;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import static PageObject.Users.UsersInfo.*;
 
@@ -30,6 +34,8 @@ public class Users extends BasePage {
     private WebElement phoneNumberOfAutomatedTestUserInOverview;
 
     public Users navigateToUserInfo() {
+        Wait<WebDriver> wait = new WebDriverWait(driver, 5);
+        wait.until(ExpectedConditions.textToBePresentInElement(nameOfAutomatedTestUser, nameOfTestedUser));
         nameOfAutomatedTestUser.click();
         return this;
     }
@@ -53,6 +59,7 @@ public class Users extends BasePage {
     public WebElement getPhoneNumberOfAutomatedTestUserInOverview() {
         return phoneNumberOfAutomatedTestUserInOverview;
     }
+
 
 
 

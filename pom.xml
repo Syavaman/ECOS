@@ -11,6 +11,7 @@
         <commons.version>2.6</commons.version>
         <testng.version>7.1.0</testng.version>
         <allure.version>2.7.0</allure.version>
+        <javamail.version>1.6.2</javamail.version>
     </properties>
     <dependencies>
         <dependency>
@@ -33,6 +34,11 @@
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-java-commons</artifactId>
             <version>${allure.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.sun.mail</groupId>
+            <artifactId>javax.mail</artifactId>
+            <version>${javamail.version}</version>
         </dependency>
     </dependencies>
     <build>
