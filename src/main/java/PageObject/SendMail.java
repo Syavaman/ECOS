@@ -65,6 +65,12 @@ public class SendMail {
                 multipart.addBodyPart(messageBodyPart);
                 message.setContent(multipart);
                 Transport.send(message);
+                try {
+                    Thread.sleep(60000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+
             }
 
 
@@ -76,10 +82,6 @@ public class SendMail {
         return this;
     }
 
-    public static void main(String[] args) {
-        SendMail mail = new SendMail();
-        mail.sendMail("AV");
-    }
 
 }
 
