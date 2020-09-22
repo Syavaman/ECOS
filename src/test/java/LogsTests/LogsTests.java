@@ -4,6 +4,7 @@ import BrowsersAndListeners.Browser;
 import PageObject.Constants;
 import PageObject.Logs.Logs;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
@@ -25,9 +26,23 @@ public class LogsTests extends Browser {
     }
 
     @Test
-    public void checkInfo() {
-log.getValueFromCell(1,"Scan result");
-        System.out.println(log.getValueFromCell(1,"Scan result"));
+    public void checkSpam() {
+        log.sendAndCheckDetectionOfLetter("Spam");
+        String spamResult = log.getValueFromCell(1, "Scan result");
+        Assert.assertEquals(spamResult, "Spam");
+    }
+
+    @Test
+    public void checkPhishing() {
+        log.sendAndCheckDetectionOfLetter("Phishing");
+        String phishingResult = log.getValueFromCell(1, "Scan result");
+        Assert.assertEquals(phishingResult, "Phishing");
+    }
+    @Test
+    public void checkMalware() {
+        log.sendAndCheckDetectionOfLetter("Malware");
+        String malwareResult = log.getValueFromCell(1, "Scan result");
+        Assert.assertEquals(malwareResult, "Malware");
     }
 
 

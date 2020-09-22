@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64a8dbce-02dd-4eb0-adc1-9e1c24d6e950" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/PageObject/Logs/Logs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LogsTests/LogsTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drivers/testfile.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/testfile.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObject/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/Logs/Logs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObject/Logs/Logs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/SendMail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObject/SendMail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/TopHeadings/TopHeadings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObject/TopHeadings/TopHeadings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LogsTests/LogsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LogsTests/LogsTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TopHeadingsAndRedirection/TopHeadingsAndRedirectionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TopHeadingsAndRedirection/TopHeadingsAndRedirectionTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +49,8 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vse.ua" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
@@ -56,34 +59,18 @@
       <recent name="PageObject.LoginPage" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LogsTests.checkInfo">
-    <configuration name="Logs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PageObject.Logs.Logs" />
+  <component name="RunManager" selected="TestNG.C:/Users/msi7r/Desktop/ECOS/testng.xml">
+    <configuration name="C:/Users/msi7r/Desktop/ECOS/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ECOS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="PageObject.Logs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SendMail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PageObject.SendMail" />
-      <module name="ECOS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="PageObject.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LogsTests.checkInfo (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LogsTests.checkMalware" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ECOS" />
       <extension name="coverage">
         <pattern>
@@ -93,16 +80,15 @@
       </extension>
       <option name="PACKAGE_NAME" value="LogsTests" />
       <option name="MAIN_CLASS_NAME" value="LogsTests.LogsTests" />
-      <option name="METHOD_NAME" value="checkInfo" />
+      <option name="METHOD_NAME" value="checkMalware" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="0" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogsTests.checkInfo" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LogsTests.checkPhishing" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ECOS" />
       <extension name="coverage">
         <pattern>
@@ -112,7 +98,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="LogsTests" />
       <option name="MAIN_CLASS_NAME" value="LogsTests.LogsTests" />
-      <option name="METHOD_NAME" value="checkInfo" />
+      <option name="METHOD_NAME" value="checkPhishing" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -120,19 +106,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UsersTabTests.checkInfoOfUser (3)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LogsTests.checkSpam" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ECOS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Users.*" />
+          <option name="PATTERN" value="LogsTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Users" />
-      <option name="MAIN_CLASS_NAME" value="Users.UsersTabTests" />
-      <option name="METHOD_NAME" value="checkInfoOfUser" />
+      <option name="PACKAGE_NAME" value="LogsTests" />
+      <option name="MAIN_CLASS_NAME" value="LogsTests.LogsTests" />
+      <option name="METHOD_NAME" value="checkSpam" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="0" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopHeadingsAndRedirectionTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ECOS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TopHeadingsAndRedirection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TopHeadingsAndRedirection" />
+      <option name="MAIN_CLASS_NAME" value="TopHeadingsAndRedirection.TopHeadingsAndRedirectionTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -141,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LogsTests.checkInfo" />
-        <item itemvalue="Application.Logs" />
-        <item itemvalue="TestNG.LogsTests.checkInfo (1)" />
-        <item itemvalue="Application.SendMail" />
-        <item itemvalue="TestNG.UsersTabTests.checkInfoOfUser (3)" />
+        <item itemvalue="TestNG.C:/Users/msi7r/Desktop/ECOS/testng.xml" />
+        <item itemvalue="TestNG.TopHeadingsAndRedirectionTests" />
+        <item itemvalue="TestNG.LogsTests.checkMalware" />
+        <item itemvalue="TestNG.LogsTests.checkSpam" />
+        <item itemvalue="TestNG.LogsTests.checkPhishing" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600108115130</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="+ First Log Page methods">
+      <created>1600200765923</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1600200765923</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -251,7 +260,8 @@
     <MESSAGE value="+ several changes to previous tests" />
     <MESSAGE value="+ some changes with drivers" />
     <MESSAGE value="+ SendMail class created" />
-    <option name="LAST_COMMIT_MESSAGE" value="+ SendMail class created" />
+    <MESSAGE value="+ First Log Page methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ First Log Page methods" />
   </component>
   <component name="WindowStateProjectService">
     <state x="507" y="216" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599504651984">
@@ -271,65 +281,74 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="566" y="273" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597161113305" />
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1600108114062">
+    <state x="516" y="260" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1600266701307">
       <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="516" y="260" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1600266701307" />
+    <state x="2450" y="10" key="CommitChangelistDialog2" timestamp="1600200764983">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1599504767184" />
-    <state x="2450" y="10" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599505818044" />
+    <state x="2450" y="10" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600200764983" />
     <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1600108114062" />
-    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1599507150045">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="2606" y="212" key="FileChooserDialogImpl" timestamp="1600265609325">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1599507150045" />
-    <state width="1877" height="372" key="GridCell.Tab.0.bottom" timestamp="1600200322970">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1493" height="281" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1599507689703" />
-    <state width="1877" height="372" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600200322970" />
-    <state width="1478" height="272" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600187791145" />
-    <state width="1877" height="372" key="GridCell.Tab.0.center" timestamp="1600200322970">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1493" height="281" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1599507689702" />
-    <state width="1877" height="372" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600200322970" />
-    <state width="1478" height="272" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600187791145" />
-    <state width="1877" height="372" key="GridCell.Tab.0.left" timestamp="1600200322970">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1493" height="281" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1599507689702" />
-    <state width="1877" height="372" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600200322970" />
-    <state width="1478" height="272" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600187791145" />
-    <state width="1877" height="372" key="GridCell.Tab.0.right" timestamp="1600200322970">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1493" height="281" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1599507689702" />
-    <state width="1877" height="372" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600200322970" />
-    <state width="1478" height="272" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600187791145" />
-    <state width="1478" height="252" key="GridCell.Tab.1.bottom" timestamp="1600185336207">
+    <state x="2606" y="212" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600265609325" />
+    <state width="1877" height="372" key="GridCell.Tab.0.bottom" timestamp="1600366844643">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="252" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600185336207" />
-    <state width="1478" height="252" key="GridCell.Tab.1.center" timestamp="1600185336207">
+    <state width="1493" height="337" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1600267504816" />
+    <state width="1476" height="337" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600280156437" />
+    <state width="1877" height="372" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600366844643" />
+    <state width="1877" height="372" key="GridCell.Tab.0.center" timestamp="1600366844643">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="252" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1600185336207" />
-    <state width="1478" height="252" key="GridCell.Tab.1.left" timestamp="1600185336207">
+    <state width="1493" height="337" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1600267504816" />
+    <state width="1476" height="337" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600280156437" />
+    <state width="1877" height="372" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600366844643" />
+    <state width="1877" height="372" key="GridCell.Tab.0.left" timestamp="1600366844643">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="252" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1600185336207" />
-    <state width="1478" height="252" key="GridCell.Tab.1.right" timestamp="1600185336207">
+    <state width="1493" height="337" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1600267504815" />
+    <state width="1476" height="337" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600280156436" />
+    <state width="1877" height="372" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600366844643" />
+    <state width="1877" height="372" key="GridCell.Tab.0.right" timestamp="1600366844643">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="252" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1600185336207" />
+    <state width="1493" height="337" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1600267504816" />
+    <state width="1476" height="337" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600280156437" />
+    <state width="1877" height="372" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600366844643" />
+    <state width="1476" height="251" key="GridCell.Tab.1.bottom" timestamp="1600366844614">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1476" height="251" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600269275197" />
+    <state width="1476" height="251" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600366844614" />
+    <state width="1476" height="251" key="GridCell.Tab.1.center" timestamp="1600366844614">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1476" height="251" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600269275197" />
+    <state width="1476" height="251" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1600366844614" />
+    <state width="1476" height="251" key="GridCell.Tab.1.left" timestamp="1600366844614">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1476" height="251" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600269275197" />
+    <state width="1476" height="251" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1600366844614" />
+    <state width="1476" height="251" key="GridCell.Tab.1.right" timestamp="1600366844614">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1476" height="251" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600269275197" />
+    <state width="1476" height="251" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1600366844614" />
     <state x="277" y="63" key="SettingsEditor" timestamp="1599077119304">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="63" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1599077119304" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1600179841014">
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1600785004865">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1600179841014" />
-    <state x="2501" y="300" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599505563222" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1600785004865" />
+    <state x="2501" y="300" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600264025639" />
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1600104549874" />
     <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599122624936">
       <screen x="0" y="0" width="1536" height="824" />

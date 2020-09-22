@@ -79,7 +79,7 @@ public class TopHeadingsAndRedirectionTests extends Browser {
     @Test
     public  void checkSubmitFeedBackHelpRedirection(){
         topHeadings.helpRedirections(topHeadings.getHelpSubmitFeedBack());
-        Assert.assertTrue(topHeadings.getHelpSubmitFeedBackMenu().isDisplayed(), "Eset Support Forum Page has not been opened");
+        Assert.assertTrue(topHeadings.getHelpSubmitFeedBackMenu().isDisplayed(), "Eset Feedback menu has not been opened");
     }
 
     @Test

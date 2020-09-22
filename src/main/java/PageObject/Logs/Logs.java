@@ -1,10 +1,15 @@
 package PageObject.Logs;
 
 import PageObject.BasePage;
+import PageObject.SendMail;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Wait;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
 import java.util.HashMap;
 
 
@@ -13,9 +18,13 @@ public class Logs extends BasePage {
         super(driver);
     }
 
+    SendMail mail;
+
 
     @FindBy(xpath = "//div[contains(text(),'Exchange Online')]")
     private WebElement exchangeOnlineLogsTab;
+    @FindBy(css = "#filter-refresh-icon")
+    private WebElement refreshButton;
 
 
     public int numberOfColumn(String nameOfColumn) {
@@ -38,6 +47,17 @@ public class Logs extends BasePage {
         return valueResultName;
     }
 
+
+    public Logs sendAndCheckDetectionOfLetter(String typeOfLetter) {
+        mail = new SendMail();
+        mail.sendMail(typeOfLetter);
+        refreshButton.click();
+        String threat = typeOfLetter;
+        WebElement checkedElement = driver.findElement(By.xpath("//div[@id='r:0, c:6']//div"));
+        Wait<WebDriver> wait = new WebDriverWait(driver, 5);
+        wait.until(ExpectedConditions.textToBePresentInElement(checkedElement, typeOfLetter));
+        return this;
+    }
 
 }
 

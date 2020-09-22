@@ -46,14 +46,14 @@ public class SendMail {
 
             if (typeOfThreat.equals("Spam")) {
                 message.setSubject("Spam letter");
-                message.setText("Here is your spam string  : " + "XJS*C4JDBQADN1.NSBN3*2IDNEN*GTUBE-ESETS-STANDARD-ANTI-UBE-TEST-EMAIL*C.34X");
+                message.setText("XJS*C4JDBQADN1.NSBN3*2IDNEN*GTUBE-ESETS-STANDARD-ANTI-UBE-TEST-EMAIL*C.34X");
                 Transport.send(message);
             } else if (typeOfThreat.equals("Phishing")) {
                 message.setSubject("Phishing letter");
                 message.setText("Here is your phishing link : " + "http://utm.io/290617");
                 Transport.send(message);
-            } else if (typeOfThreat.equals("AV")) {
-                message.setSubject("AV letter");
+            } else if (typeOfThreat.equals("Malware")) {
+                message.setSubject("Malware letter");
                 MimeBodyPart messageBodyPart = new MimeBodyPart();
                 Multipart multipart = new MimeMultipart();
                 messageBodyPart = new MimeBodyPart();
@@ -65,14 +65,14 @@ public class SendMail {
                 multipart.addBodyPart(messageBodyPart);
                 message.setContent(multipart);
                 Transport.send(message);
-                try {
-                    Thread.sleep(60000);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
 
             }
 
+            try {
+                Thread.sleep(60000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
 
             System.out.println("Done");
 

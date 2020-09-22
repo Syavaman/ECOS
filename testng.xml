@@ -13,6 +13,7 @@
             <class name="TopHeadingsAndRedirection.TopHeadingsAndRedirectionTests"/>
             <class name="Dashboard.DashboardTests"/>
             <class name="Users.UsersTabTests"/>
+            <class name="LogsTests.LogsTests"/>
         </classes>
     </test>
 </suite>

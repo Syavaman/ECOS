@@ -50,7 +50,7 @@ public class TopHeadings extends BasePage {
     private WebElement helpSupportForumPageForumVerifier;
     @FindBy(xpath = "//div[contains(text(),'Submit feedback')]")
     private WebElement helpSubmitFeedBack;
-    @FindBy(xpath = "//div[@class='sc-kvZOFW iMXuFx Grid__grid--3cbyZCMYBx Feedback_feedback-content_WVTAj']")
+    @FindBy(xpath = "//div[@class='Modal__title--2b5VMoBy8y']")
     private WebElement helpSubmitFeedBackMenu;
 
     @FindBy(xpath = "//a[@id='header-profile']")
